@@ -27,3 +27,6 @@ clean:
 
 # 伪目标
 .PHONY: all clean
+
+install:
+	cp crypto /usr/local/bin
